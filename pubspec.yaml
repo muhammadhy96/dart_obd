@@ -1,0 +1,18 @@
+name: dart_obd
+description: Pure Dart/Flutter OBD-II data layer (ELM327) inspired by python-OBD.
+version: 0.1.0
+homepage: https://example.invalid
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  meta: ^1.11.0
+  collection: ^1.18.0
+  async: ^2.11.0
+
+  # Transport layers (Flutter projects can use these)
+  flutter_blue_plus: ^1.35.0
+  socket_io_client: ^2.0.3+1
+  usb_serial: ^0.5.2
+
+# NOTE: python-OBD is GPL-licensed; ensure your distribution is GPL-compatible.
