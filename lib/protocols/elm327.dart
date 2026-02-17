@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:typed_data';
 
 import '../connection/obd_connection.dart';
 import '../utils/exceptions.dart';

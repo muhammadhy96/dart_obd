@@ -4,7 +4,6 @@ import '../protocols/elm327.dart';
 import '../protocols/protocol.dart';
 import '../protocols/message.dart';
 import '../utils/bit_array.dart';
-import '../utils/exceptions.dart';
 
 /// Helper to auto-detect protocol and discover supported PIDs.
 class ScanTool {
